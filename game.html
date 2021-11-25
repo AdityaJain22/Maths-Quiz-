@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Maths quiz</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="screen2.css">
+</head>
+<body class = "screen2B">
+<h1 id = "player-1"> </h1>
+<span id= "player-1_score"></span>
+<h1 id = "player-2"> </h1>
+<span id= "player-2_score"></span>
+<div class="container">
+	<center>
+		<h2 id = "heading2">Maths Quiz !!</h2>
+		<br>
+		<br>
+		<h2 id = "player-1_name_QT" ></h2>
+		<h2 id = "player-2_name_AT" ></h2>
+		<div id = "Question" class = "col-lg-6"></div>
+		<br>
+		<br>
+		<br>
+		<h1 id = "question_display"></h1>
+        <br>
+        <br>
+		<span >
+		</span>
+	</center>
+</div>
+<br>
+<label id = "L1">First No.</label>
+<br>
+<input type = "text" id= "num1" placeholder = "Type the second no. here" class = "form-control">
+<br>
+<label id = "L2"> Second no.</label>
+<br>
+<input type = "text" id= "num2" placeholder = "Type the first no. here" class = "form-control">
+<br>
+
+<button class = "btn btn-success" id = "submit" onclick = "Submit()"> Submit </button>
+<script src="game.js"></script>
+</body>
+</html>

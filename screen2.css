@@ -1,0 +1,63 @@
+.screen2B
+{
+background-image: url("screen2.jpg");
+background-position: center;
+background-size:cover;
+}
+#Qlabel
+{
+    color: white;
+}
+#L1
+{
+    color: white;
+}
+#L2
+{
+    color: white;
+}
+#heading2
+{
+    color: white;
+}
+#player-1
+{
+    color: white;
+}
+#player-2
+{
+    color: white;
+}
+#player-1_name_QT{
+    color: white;
+}
+#player-2_name_AT{
+    color: white;
+}
+#N{
+    color: white;
+}
+#player-1_score
+{
+    color: white;
+}
+#player-2_score
+{
+    color: white;
+}
+#player-1
+{
+    color: white;
+}
+#player-2
+{
+    color: white;
+}
+#input_check_box
+{
+    color: white;
+}
+#heading
+{
+    font-size: 25px;
+}
